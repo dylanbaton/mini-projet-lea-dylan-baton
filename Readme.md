@@ -10,4 +10,4 @@ Le plan d’organisation de la semaine:
 
 Les tâches à réaliser sur la semaine:
 
-- Creer son git hub# mini-projet-lea-dylan-baton
+- Creer son git hub
