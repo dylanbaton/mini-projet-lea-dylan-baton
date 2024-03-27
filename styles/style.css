@@ -1,0 +1,209 @@
+body {
+   margin: 0;   
+}
+
+.navbar {
+    background-color: aqua;
+    overflow: hidden;
+    display: flex;
+    justify-content: center; 
+}
+
+nav a {
+    color: black;
+    text-align: center;
+    padding: 20px;
+    text-transform: uppercase;
+    font-family: "Noto Serif JP";
+    font-weight: 700;
+    font-size: 20px;
+}
+
+h1 {
+    background-image: url(https://photo.comptoir.fr/asset/guide/1745/509522-1260x630-kawaguchiko-japon.jpg);
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    font-size: 150px;
+    font-family: Fondation Edu NSW ACT;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+h2 {
+    font-family: Cormorant Garamond;
+    font-weight: 500;
+    font-size: 50px;
+    text-decoration: underline;
+    text-transform: uppercase;
+    margin: 5px;
+}
+
+
+.paysages {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+} 
+
+.a {
+    display: flex;
+    width: 500px;
+    height: 300px;
+    border: 5px solid black;
+    width: 800px;
+    background-color: limegreen;
+}
+
+.b {
+    display: flex;
+    width: 500px;
+    height: 300px;
+    border: 5px solid black;
+    width: 800px;
+    background-color: red;
+}
+
+.c {
+    display: flex;
+    width: 500px;
+    height: 300px;
+    border: 5px solid black;
+    width: 800px;
+    background-color: pink;
+}
+
+.d {
+    display: flex;
+    width: 500px;
+    height: 300px;
+    border: 5px solid black;
+    width: 800px;
+    background-color: skyblue;
+}
+
+.img1 {
+    display: flex;
+}
+
+.img2 {
+    display: flex;
+}
+
+.img3 {
+    display: flex;
+}
+
+.img4 {
+    display: flex;
+}
+
+.p1 {
+    font-size: 16px;
+    padding: 2px;
+    color: whitesmoke;
+    margin: 10px;
+}
+
+.p2 {
+    font-size: 16px;
+    padding: 10px;
+    color: whitesmoke;
+    margin: 10px;
+}
+
+.p3 {
+    font-size: 16px;
+    padding: 10px;
+    margin: 10px;
+}
+
+.p4 {
+    font-size: 16px;
+    padding: 10px;
+    margin: 10px;
+}
+
+
+.villes {
+    display: flex;
+   
+} 
+
+.e {
+    display: flex;
+    width: 500px;
+    height: 300px;
+    border: 5px solid black;
+    width: 800px;
+    background-color: skyblue;  
+}
+
+.f {
+    display: flex;
+    width: 500px;
+    height: 300px;
+    border: 5px solid black;
+    width: 800px;
+    background-color: skyblue;
+}
+
+.g {
+    display: flex;
+    width: 500px;
+    height: 300px;
+    border: 5px solid black;
+    width: 800px;
+    background-color: skyblue;
+}
+
+.h {
+    display: flex;
+    width: 500px;
+    height: 300px;
+    border: 5px solid black;
+    width: 800px;
+    background-color: skyblue;
+}
+
+.img5 {
+    display: flex;
+}
+
+.img6 {
+    display: flex;
+}
+
+.img7 {
+    display: flex;
+}
+
+.img8 {
+    display: flex;
+}
+.p5 {
+    font-size: 16px;
+    padding: 10px; 
+    margin: 10px;
+}
+
+.p6 {
+    font-size: 16px;
+    padding: 10px; 
+    margin: 10px;
+}
+
+.p7 {
+    font-size: 16px;
+    padding: 10px; 
+    margin: 10px;
+}
+
+.p8 {
+    font-size: 16px;
+    padding: 10px; 
+    margin: 10px;
+}
