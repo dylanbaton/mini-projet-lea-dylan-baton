@@ -25,19 +25,19 @@ Les tâches à réaliser sur la semaine:
 - Creer la barre de navigation ✅
     - Le Japon
     - Monde Automobile
-- Creer mon titre avec une image en arriere-plan
+- Creer mon titre avec une image en arriere-plan ✅
     - Image
     - Titre
-- Creer les sections:
+- Creer les sections: ✅
     - Paysages
     - Villes
     - Magasins
-- Mettre les images avec des paragraphes
+- Mettre les images avec des paragraphes ✅
     - Image
     - Paragraphes
-- Recuperer les google fonts
+- Recuperer les google fonts ✅
 
-- Recuperer mes images
+- Recuperer mes images ✅
 
 
 

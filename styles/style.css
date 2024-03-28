@@ -1,5 +1,7 @@
 body {
-   margin: 0;   
+   margin: 0;
+   padding: 0;
+   background: beige;   
 }
 
 .navbar {
@@ -27,7 +29,7 @@ h1 {
     align-items: center;
     color: black;
     font-size: 150px;
-    font-family: Fondation Edu NSW ACT;
+    font-family: Edu NSW ACT  Fondation;
     font-weight: 700;
     text-transform: uppercase;
 }
@@ -49,100 +51,39 @@ h2 {
     gap: 15px;
 } 
 
-.a {
+.a, .b, .c, .d {
     display: flex;
     width: 500px;
     height: 300px;
     border: 5px solid black;
     width: 800px;
-    background-color: limegreen;
+    background-color: palevioletred;
 }
 
-.b {
+.img1, .img2, .img3, .img4 {
     display: flex;
-    width: 500px;
-    height: 300px;
-    border: 5px solid black;
-    width: 800px;
-    background-color: red;
+
 }
 
-.c {
-    display: flex;
-    width: 500px;
-    height: 300px;
-    border: 5px solid black;
-    width: 800px;
-    background-color: pink;
-}
-
-.d {
-    display: flex;
-    width: 500px;
-    height: 300px;
-    border: 5px solid black;
-    width: 800px;
-    background-color: skyblue;
-}
-
-.img1 {
-    display: flex;
-}
-
-.img2 {
-    display: flex;
-}
-
-.img3 {
-    display: flex;
-}
-
-.img4 {
-    display: flex;
-}
-
-.p1 {
-    font-size: 16px;
+.p1, .p2, .p3, .p4 {
+    font-size: 13px;
     padding: 2px;
     color: whitesmoke;
     margin: 10px;
+    font-family: Merriweather;
+    font-weight: 400;
 }
 
-.p2 {
-    font-size: 16px;
-    padding: 10px;
-    color: whitesmoke;
-    margin: 10px;
-}
-
-.p3 {
-    font-size: 16px;
-    padding: 10px;
-    margin: 10px;
-}
-
-.p4 {
-    font-size: 16px;
-    padding: 10px;
-    margin: 10px;
-}
 
 
 .villes {
     display: flex;
-   
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
 } 
 
-.e {
-    display: flex;
-    width: 500px;
-    height: 300px;
-    border: 5px solid black;
-    width: 800px;
-    background-color: skyblue;  
-}
-
-.f {
+.e, .f, .g, .h {
     display: flex;
     width: 500px;
     height: 300px;
@@ -151,59 +92,74 @@ h2 {
     background-color: skyblue;
 }
 
-.g {
+.img5, .img6, .img7, .img8 {
+    display: flex;
+}
+
+.p5, .p6, .p7, .p8 {
+    font-size: 13px;
+    padding: 10px; 
+    margin: 10px;
+    font-family: Merriweather;
+    font-weight: 400;
+}
+
+ 
+
+.magasins {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+}
+
+.i, .j, .k, .l {
     display: flex;
     width: 500px;
     height: 300px;
     border: 5px solid black;
     width: 800px;
-    background-color: skyblue;
+    background-color: darkcyan;  
 }
 
-.h {
+.img9, .img10, .img11, .img12 {
+    display: flex;
+}
+
+.p9, .p10, .p11, .p12 {
+    font-size: 13px;
+    padding: 10px; 
+    margin: 10px;
+    font-family: Merriweather;
+    font-weight: 400;
+    color: whitesmoke;
+}
+
+.restaurants {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px
+}
+
+.m, .n, .o, .p {
     display: flex;
     width: 500px;
     height: 300px;
     border: 5px solid black;
     width: 800px;
-    background-color: skyblue;
+    background-color: lightslategrey;  
 }
 
-.img5 {
+.img13, .img14, .img15, .img16 {
     display: flex;
 }
 
-.img6 {
-    display: flex;
-}
-
-.img7 {
-    display: flex;
-}
-
-.img8 {
-    display: flex;
-}
-.p5 {
-    font-size: 16px;
+.p13, .p14, .p15, .p16 {
+    font-size: 13px;
     padding: 10px; 
     margin: 10px;
+    font-family: Merriweather;
+    font-weight: 400;
 }
 
-.p6 {
-    font-size: 16px;
-    padding: 10px; 
-    margin: 10px;
-}
-
-.p7 {
-    font-size: 16px;
-    padding: 10px; 
-    margin: 10px;
-}
-
-.p8 {
-    font-size: 16px;
-    padding: 10px; 
-    margin: 10px;
-}
