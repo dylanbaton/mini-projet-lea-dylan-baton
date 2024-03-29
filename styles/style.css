@@ -44,122 +44,54 @@ h2 {
 }
 
 
-.paysages {
+.section {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     gap: 15px;
 } 
 
-.a, .b, .c, .d {
+.card {
     display: flex;
     width: 500px;
     height: 300px;
     border: 5px solid black;
     width: 800px;
+}
+
+.card-paysage {
     background-color: palevioletred;
 }
 
-.img1, .img2, .img3, .img4 {
-    display: flex;
-
-}
-
-.p1, .p2, .p3, .p4 {
-    font-size: 13px;
-    padding: 2px;
-    color: whitesmoke;
-    margin: 10px;
-    font-family: Merriweather;
-    font-weight: 400;
-}
-
-
-
-.villes {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 15px;
-} 
-
-.e, .f, .g, .h {
-    display: flex;
-    width: 500px;
-    height: 300px;
-    border: 5px solid black;
-    width: 800px;
+.card-ville {
     background-color: skyblue;
 }
 
-.img5, .img6, .img7, .img8 {
-    display: flex;
-}
 
-.p5, .p6, .p7, .p8 {
-    font-size: 13px;
-    padding: 10px; 
-    margin: 10px;
-    font-family: Merriweather;
-    font-weight: 400;
-}
-
- 
-
-.magasins {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 15px;
-}
-
-.i, .j, .k, .l {
-    display: flex;
-    width: 500px;
-    height: 300px;
-    border: 5px solid black;
-    width: 800px;
+.card-magasins {
     background-color: darkcyan;  
 }
 
-.img9, .img10, .img11, .img12 {
-    display: flex;
-}
-
-.p9, .p10, .p11, .p12 {
-    font-size: 13px;
-    padding: 10px; 
-    margin: 10px;
-    font-family: Merriweather;
-    font-weight: 400;
-    color: whitesmoke;
-}
-
-.restaurants {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 15px
-}
-
-.m, .n, .o, .p {
-    display: flex;
-    width: 500px;
-    height: 300px;
-    border: 5px solid black;
-    width: 800px;
+.card-restaurants {
     background-color: lightslategrey;  
 }
 
-.img13, .img14, .img15, .img16 {
-    display: flex;
-}
+/* 1 gestion de paragraphes */
 
-.p13, .p14, .p15, .p16 {
+.paragraphe {
     font-size: 13px;
-    padding: 10px; 
+    padding: 2px;
     margin: 10px;
     font-family: Merriweather;
     font-weight: 400;
 }
 
+.paragraphe-1 {
+    color: whitesmoke;
+}
+/* gestion des images */
+
+
+.image {
+    display: flex;
+}
