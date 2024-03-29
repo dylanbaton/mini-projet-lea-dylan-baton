@@ -22,7 +22,7 @@ nav a {
 }
 
 h1 {
-    background-image: url(https://photo.comptoir.fr/asset/guide/1745/509522-1260x630-kawaguchiko-japon.jpg);
+    background-image: url(https://laurierduvallon.com/app/uploads/2019/10/japon-banniere-1440x442.png);
     margin: 0;
     display: flex;
     justify-content: center;
@@ -32,6 +32,7 @@ h1 {
     font-family: Edu NSW ACT  Fondation;
     font-weight: 700;
     text-transform: uppercase;
+    height: 400px;
 }
 
 h2 {
@@ -42,6 +43,7 @@ h2 {
     text-decoration: underline;
     text-transform: uppercase;
     margin: 5px;
+    padding: 50px;
 }
 
 
@@ -54,7 +56,6 @@ h2 {
 
 .card {
     display: flex;
-    width: 500px;
     height: 300px;
     border: 5px solid black;
     width: 800px;
@@ -79,8 +80,6 @@ h2 {
     background-color: lightslategrey;  
 }
 
-/* 1 gestion de paragraphes */
-
 .paragraphe {
     font-size: 13px;
     padding: 2px;
@@ -92,9 +91,9 @@ h2 {
 .paragraphe-1 {
     color: whitesmoke;
 }
-/* gestion des images */
 
 
-.image {
-    display: flex;
+img {
+    width: 500px;
+    height: 300px;
 }
