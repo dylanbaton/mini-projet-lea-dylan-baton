@@ -33,12 +33,16 @@ body {
     font-family: Edu NSW ACT  Fondation;
     font-weight: 700;
     text-transform: uppercase;
+    height: 400px;
 }
 
-h2 {
-    font-family: ;
+.titre {
+    display: flex;
+    justify-content: center;
+    font-family: Cormorant Garamond;
     font-weight: 500;
     font-size: 50px;
+    font-weight: 700;
     text-decoration: underline;
     text-transform: uppercase;
     margin: 5px;
@@ -66,6 +70,10 @@ h2 {
     display: flex;
 }
 
+img {
+    width: 550px;
+    height: 350px;
+}
 .paragraphe {
     font-size: 20px;
     padding: 10px; 

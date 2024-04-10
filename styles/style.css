@@ -1,11 +1,11 @@
 body {
    margin: 0;
    padding: 0;
-   background: beige;   
+   background: turquoise;   
 }
 
 .navbar {
-    background-color: aqua;
+    background-color: darkturquoise;
     overflow: hidden;
     display: flex;
     justify-content: center; 
@@ -19,6 +19,7 @@ nav a {
     font-family: "Noto Serif JP";
     font-weight: 700;
     font-size: 20px;
+    text-decoration: none;
 }
 
 h1 {
@@ -97,3 +98,13 @@ img {
     width: 500px;
     height: 300px;
 }
+
+footer {
+    text-align: center;
+    padding: 5px;
+    background-color: darkturquoise;
+    color: whitesmoke;
+    margin-top: 10px;
+    padding: 15px;
+    font-size: 35px;
+  }
