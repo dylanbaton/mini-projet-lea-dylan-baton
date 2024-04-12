@@ -1,11 +1,12 @@
 body {
    margin: 0;
    padding: 0;
-   background: turquoise;   
+   background-image: url();
+   background: wheat;  
 }
 
 .navbar {
-    background-color: white;
+    background-color: #F2D5DC;
     overflow: hidden;
     display: flex;
     justify-content: center; 
@@ -23,7 +24,7 @@ nav a {
 }
 
 h1 {
-    background-image: url(https://laurierduvallon.com/app/uploads/2019/10/japon-banniere-1440x442.png);
+    background-image: url(https://contents.mediadecathlon.com/s903701/k$d4e92e0776c70272f119a4a69bcff93e/1920x0/2011pt1125/4000xcr1231/idees-randonnees-japon.jpeg?format=auto);
     margin: 0;
     display: flex;
     justify-content: center;
@@ -33,7 +34,7 @@ h1 {
     font-family: Edu NSW ACT  Fondation;
     font-weight: 700;
     text-transform: uppercase;
-    height: 400px;
+    height: 590px;
 }
 
 h2 {
@@ -64,23 +65,6 @@ h2 {
     overflow: hidden;
 }
 
-.card-paysage {
-    background-color: palevioletred;
-}
-
-.card-ville {
-    background-color: skyblue;
-}
-
-
-.card-magasins {
-    background-color: darkcyan;  
-}
-
-.card-restaurants {
-    background-color: lightslategrey;  
-}
-
 .paragraphe {
     font-size: 13px;
     padding: 2px;
@@ -88,11 +72,6 @@ h2 {
     font-family: Merriweather;
     font-weight: 400;
 }
-
-.paragraphe-1 {
-    color: whitesmoke;
-}
-
 
 img {
     width: 500px;
@@ -102,9 +81,9 @@ img {
 footer {
     text-align: center;
     padding: 5px;
-    background-color: white;
+    background-color: #F2D5DC;
     color: black;
     margin-top: 20px;
     padding: 15px;
     font-size: 35px;
-  }
+}
