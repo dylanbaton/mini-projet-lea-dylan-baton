@@ -2,18 +2,18 @@ body {
    margin: 0;
    padding: 0;
    background-image: url();
-   background: wheat;  
+   background: darkred;  
 }
 
 .navbar {
-    background-color: #F2D5DC;
+    background-color: black;
     overflow: hidden;
     display: flex;
     justify-content: center; 
 }
 
 nav a {
-    color: black;
+    color: darkred;
     text-align: center;
     padding: 20px;
     text-transform: uppercase;
@@ -29,12 +29,15 @@ h1 {
     display: flex;
     justify-content: center;
     align-items: center;
-    color: black;
-    font-size: 150px;
+    height: 590px;
+}
+
+.titre1 {
+    color: darkred;
+    font-size: 70px;
     font-family: Edu NSW ACT  Fondation;
     font-weight: 700;
     text-transform: uppercase;
-    height: 590px;
 }
 
 h2 {
@@ -46,6 +49,7 @@ h2 {
     text-transform: uppercase;
     margin: 5px;
     padding: 50px;
+    color: #F2D5DC;
 }
 
 
@@ -71,6 +75,7 @@ h2 {
     margin: 10px;
     font-family: Merriweather;
     font-weight: 400;
+    color: #F2D5DC;
 }
 
 img {
@@ -81,8 +86,8 @@ img {
 footer {
     text-align: center;
     padding: 5px;
-    background-color: #F2D5DC;
-    color: black;
+    background-color: black;
+    color: darkred;
     margin-top: 20px;
     padding: 15px;
     font-size: 35px;
