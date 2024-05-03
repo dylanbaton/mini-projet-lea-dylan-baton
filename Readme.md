@@ -16,8 +16,8 @@ Les tâches à réaliser sur la semaine:
     -images
     -styles
 - Creer une page index.html ✅
-    - Header ✅
-    - Main ✅
+    - Header 
+    - Main 
 - Creer une page style.css ✅
 
 - Lier la page html et css ✅
@@ -38,6 +38,4 @@ Les tâches à réaliser sur la semaine:
 - Recuperer les google fonts ✅
 
 - Recuperer mes images ✅
-
-
 
