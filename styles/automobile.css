@@ -1,18 +1,23 @@
 body {
     margin: 0;
     padding: 0;
-    background: red;
+    background: black;
 }
     
 .navbar {
     background-color: black;
-    overflow: hidden;
     display: flex;
-    justify-content: center; 
+    justify-content: space-between;
+    align-items: center;
 }
-    
-nav a {
-    color: whitesmoke;
+
+.liste {
+    flex-grow: 1;
+    text-align: center;
+}
+
+.liste a {
+    color: white;
     text-align: center;
     padding: 20px;
     text-transform: uppercase;
@@ -20,15 +25,23 @@ nav a {
     font-weight: 700;
     font-size: 20px;
     text-decoration: none;
+    margin: 0 10px;
+}
+
+.logo-1 {
+    height: 80px;
+    width: 100px;
+    margin: 5px;
+    object-fit: cover;
 }
 
 h1 {
-    background-image: url(https://www.downshift.fr/wp-content/uploads/2017/11/8s4a1256.jpg);
+    background-image: url(../images/fond-titre/rasso-japon.jpg);
     margin: 0;
     display: flex;
     justify-content: center;
     align-items: center;
-    color: rgb(128, 128, 128);
+    color: black;
     font-size: 150px;
     font-family: Edu NSW ACT  Fondation;
     font-weight: 700;
@@ -40,7 +53,6 @@ h1 {
     display: flex;
     justify-content: center;
     font-family: Cormorant Garamond;
-    font-weight: 500;
     font-size: 50px;
     font-weight: 700;
     text-decoration: underline;
@@ -50,11 +62,30 @@ h1 {
 }
 
 .section {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    padding: 20px;
-    gap: 15px;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  gap: 15px;
+}
+
+.bouton-lien {
+    display: block;
+    margin : auto;
+    width: 270px;  
+    background-color: red;
+    border: 0.2px solid black;
+    border-radius: 5px;
+    padding: 3px;
+    color: white;
+    font-family: Cormorant Garamond;
+    font-weight: 700;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.bouton-lien.rwb {
+    margin-left: 885px;
 }
 
 .voiture {
@@ -70,7 +101,12 @@ h1 {
     width: 550px;
     height: 350px;
     object-fit: cover;
-    width: 900px;
+}
+
+.image:hover {
+    transform: scale(1.05);
+    filter: blur(10px);
+    transition: filter 0.5s;
 }
 
 .paragraphe {
@@ -80,4 +116,14 @@ h1 {
     font-family: Merriweather;
     font-weight: 400;
     color: whitesmoke;
+}
+
+footer {
+    text-align: center;
+    padding: 5px;
+    background-color: red;
+    color: white;
+    margin-top: 20px;
+    padding: 15px;
+    font-size: 35px;
 }
