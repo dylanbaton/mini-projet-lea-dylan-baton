@@ -109,6 +109,7 @@ h1 {
     transition: filter 0.5s;
 }
 
+
 .paragraphe {
     font-size: 20px;
     padding: 10px; 
@@ -116,6 +117,7 @@ h1 {
     font-family: Merriweather;
     font-weight: 400;
     color: whitesmoke;
+    
 }
 
 footer {
@@ -127,13 +129,8 @@ footer {
     font-size: 35px;   
 }
 
-.logo {
+.lien-reseaux {
     display: flex;
-    justify-content: center;
-    margin: 0 auto;
-    height: 80px;
+    gap: 10px;
 }
 
-.logo-link {
-    height: 60px;
-}
