@@ -1,0 +1,78 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: darkred;
+    display: flex;
+    flex-direction: column;
+} 
+ 
+.navbar {
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+ 
+.liste {
+    flex-grow: 1;
+    text-align: center;
+}
+ 
+.liste a {
+    color: blue;
+    text-align: center;
+    padding: 10px;
+    text-transform: uppercase;
+    font-family: "Noto Serif JP";
+    font-weight: 700;
+    font-size: 20px;
+    text-decoration: none;
+    margin: 0 10px;
+}
+ 
+.logo-1 {
+    height: 80px;
+    width: 80px;
+    margin: 5px;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: white;
+    width: 650px;
+    height: 500px;
+    border-radius: 10px;
+    margin: 0 auto;
+}
+
+/* CSS pour le formulaire */
+.formulaire {
+    display: flex; /* Utilisation de flexbox pour aligner les éléments en colonne */
+    flex-direction: column; /* Aligner les éléments en colonne */
+    align-items: center; /* Centrer les éléments horizontalement */
+    justify-content: center; /*Centrer les éléments verticalement */
+    height: 100vh; /* Utilisation de la hauteur de la vue pour centrer verticalement */
+}
+
+/* CSS pour les étiquettes */
+.formulaire label {
+    margin-bottom: 10px; /* Espacement entre chaque étiquette */
+}
+
+/* CSS pour le bouton */
+.formulaire button {
+    padding: 10px 20px; /* Espace interne pour une apparence agréable */
+    margin: 15px;
+    background-color: #4CAF50; /* Couleur de fond */
+    color: white; /* Couleur du texte */
+    border: none; /*Suppression de la bordure */
+    cursor: pointer; /* Changement de curseur au survol */
+}
+
+/* CSS pour le bouton au survol */
+.formulaire button:hover {
+    background-color: #F5704F; /* Couleur de fond au survol */
+}
+

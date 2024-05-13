@@ -19,7 +19,7 @@ body {
 .liste a {
     color: darkred;
     text-align: center;
-    padding: 20px;
+    padding: 10px;
     text-transform: uppercase;
     font-family: "Noto Serif JP";
     font-weight: 700;
@@ -110,9 +110,14 @@ img {
     height: 300px;
 }
 
+.icon img {
+    width: auto;
+    height: auto;
+}
+
 footer {
     text-align: center;
-    background-color: white;
+    background-color: black;
     color: darkred;
     margin-top: 20px;
     padding: 15px;
@@ -122,6 +127,4 @@ footer {
 .lien-reseaux {
     display: flex;
     gap: 10px;
-    width: 20px;
-
 }
