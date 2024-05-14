@@ -14,9 +14,10 @@
     <title>Formulaire</title>
 </head>
 <body>
-<header>
+   
+    <header>
         <nav class="navbar">
-        <img class="logo-1" src="icons/icon-sushi.jpg" alt="logo-sushi">
+        <img class="logo-1" src="icons/formulaire/icon-sushi-2.jpg" alt="logo-sushi">
             <div class="liste">
                 <a href="index.html">le japon</a>
                 <a href="automobile.html">le monde automobile</a>
@@ -24,20 +25,39 @@
             </div>
         </nav>
     </header>
-    <main>   
-        <form class="formulaire" action="formulaireConfirmation.php" method="post">
+     
+    <main>
+      
+        <section class="content">   
+            <form class="formulaire" action="formulaireConfirmation.php" method="post">
+                <img class="img-formu" src="icons/formulaire/icon-sushi-2.jpg" alt="">
+                <h2 class="titre-formulaire">Formulaire</h2>
+               
+                <label for="nom">Nom*</label>
+                <input type="text" id="nom" name="nom">
+
+                <label for="prenom">Prenom*</label>
+                <input type="text" id="prenom" name="prenom">
+
+                <label for="commentaires">Commentaires*</label>
+                <textarea type="text" id="commentaires" name="commentaires"></textarea>
+
+                <button type="submit">Envoyer</button>
+            </form>
+        </section>
+            <img src="" alt="">
+        <section>
+
+        </section>
+    </main> 
+    <footer>
+        <small>Copyright © 2024. Baton Dylan. Tous droits réservés.</small>
+        <div class="lien-reseaux">
+           <a class="icon" href="mailto: dbaton@deastanceservices.fr"><img src="icons/formulaire/icon-mail.jpg" alt="linkedin"></a>
+           <a class="icon" href="https://www.linkedin.com/in/dylan-baton-355381249/" target="_blank"><img src="icons/formulaire/icon-linkedin-2.jpg" alt="linkedin"></a> 
+           <a class="icon icon-atypique" href="https://www.lecoleatypique.fr/" target="_blank"><img src="icons/icone-atypique.jpg" alt=""></a> 
+        </div>
         
-            <label for="nom">Nom*</label>
-            <input type="text" id="nom" name="nom">
-
-            <label for="prenom">prenom*</label>
-            <input type="text" id="prenom" name="prenom">
-
-            <label for="commentaires">commentaires*</label>
-            <textarea type="text" id="commentaires" name="commentaires"></textarea>
-
-            <button type="submit">Envoyer</button>
-        </form>
-    </main>    
+    </footer>   
 </body>
 </html>

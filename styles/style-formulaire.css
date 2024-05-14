@@ -1,25 +1,32 @@
 body {
-    margin: 0;
-    padding: 0;
-    background: darkred;
+    margin: 0 auto;
     display: flex;
     flex-direction: column;
-} 
- 
+    align-items: center;
+    background-image: url(../images/formulaire/sushi-kawaii-4.jpg);
+    background-position:center center;
+    overflow: hidden;
+}
+
+header { 
+    width: 100%;
+    background-color: #333;
+    color: white;
+}
+
 .navbar {
-    background-color: white;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
- 
+
 .liste {
     flex-grow: 1;
     text-align: center;
 }
- 
+
 .liste a {
-    color: blue;
+    color: white;
     text-align: center;
     padding: 10px;
     text-transform: uppercase;
@@ -29,7 +36,7 @@ body {
     text-decoration: none;
     margin: 0 10px;
 }
- 
+
 .logo-1 {
     height: 80px;
     width: 80px;
@@ -40,39 +47,76 @@ main {
     display: flex;
     justify-content: center;
     align-items: center;
-    background: white;
-    width: 650px;
-    height: 500px;
-    border-radius: 10px;
-    margin: 0 auto;
+    height: 100vh;
+    width: 100%;
+    overflow: hidden;
+    
 }
 
-/* CSS pour le formulaire */
+.content {
+    width: 100%;
+    max-width: 500px;
+    padding: 20px;
+    background-color: #f4f4f4;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    margin-bottom: 10%;
+}
+
+.titre-formulaire {
+    display: flex;
+    justify-content: center;
+}
+
+.img-formu {
+    width: 80px;
+    height: 80px;
+}
+
 .formulaire {
-    display: flex; /* Utilisation de flexbox pour aligner les éléments en colonne */
-    flex-direction: column; /* Aligner les éléments en colonne */
-    align-items: center; /* Centrer les éléments horizontalement */
-    justify-content: center; /*Centrer les éléments verticalement */
-    height: 100vh; /* Utilisation de la hauteur de la vue pour centrer verticalement */
+    display: flex;
+    flex-direction: column;
 }
 
-/* CSS pour les étiquettes */
 .formulaire label {
-    margin-bottom: 10px; /* Espacement entre chaque étiquette */
+    margin-bottom: 5px;
 }
 
-/* CSS pour le bouton */
+.formulaire input,
+.formulaire textarea {
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
 .formulaire button {
-    padding: 10px 20px; /* Espace interne pour une apparence agréable */
-    margin: 15px;
-    background-color: #4CAF50; /* Couleur de fond */
-    color: white; /* Couleur du texte */
-    border: none; /*Suppression de la bordure */
-    cursor: pointer; /* Changement de curseur au survol */
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    background-color: #333;
+    color: white;
+    cursor: pointer;
 }
 
-/* CSS pour le bouton au survol */
 .formulaire button:hover {
-    background-color: #F5704F; /* Couleur de fond au survol */
+    background-color: #555;
 }
 
+footer {
+    width: 100%;
+    background-color: #333;
+    color: white;
+    font-size: 35px;
+    text-align: center;
+    padding: 15px 0;
+    bottom: 0;
+    position: absolute;
+}
+
+.lien-reseaux {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
