@@ -5,15 +5,42 @@ body {
 }
     
 .navbar {
-    background-color: black;
     display: flex;
-    justify-content: space-between;
+    position: relative;
+    justify-content: center;
     align-items: center;
+    background-image: url(../images/navbar/image-navbar.jpg);
+    background-size: cover;
+    background-position: center 1700px; 
+    height: 400px;
+    object-fit: cover;
+}
+
+.navbar-titre {
+    position: absolute;
+    color: red;
+    font-size: 140px;
+    font-family: Edu NSW ACT  Fondation;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin: 0;
+}
+
+.logo-1 {
+    position: absolute;
+    top: 10px;
+    left: 10px; 
+    height: 80px;
+    width: 80px;
+    object-fit: cover;
 }
 
 .liste {
     flex-grow: 1;
     text-align: center;
+    display: flex;
+    justify-content: center;
+    align-self: flex-start;
 }
 
 .liste a {
@@ -28,25 +55,12 @@ body {
     margin: 0 10px;
 }
 
-.logo-1 {
-    height: 80px;
-    width: 80px;
-    margin: 5px;
-    object-fit: cover;
-}
-
-h1 {
-    background-image: url(../images/fond-titre/rasso-japon.jpg);
-    margin: 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.titre1 {
     color: black;
-    font-size: 150px;
+    font-size: 70px;
     font-family: Edu NSW ACT  Fondation;
     font-weight: 700;
     text-transform: uppercase;
-    height: 590px;
 }
 
 .titre {
@@ -114,12 +128,12 @@ h1 {
 }
 
 footer {
-    text-align: center;
+    width: 100%;
     background-color: red;
     color: white;
-    margin-top: 20px;
-    padding: 15px;
-    font-size: 35px;   
+    font-size: 35px;
+    text-align: center;
+    padding: 15px 0;   
 }
 
 .lien-reseaux {
@@ -128,3 +142,8 @@ footer {
     gap: 20px;
 }
 
+.icon-atypique {
+    width: 60px;
+    height: 32px;
+    object-fit: cover;
+}
