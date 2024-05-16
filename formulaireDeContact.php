@@ -17,7 +17,8 @@
             <div class="liste">
                 <a href="index.html">le japon</a>
                 <a href="automobile.html">le monde automobile</a>
-                <a href="formulaireDeContact.php">Formulaire</a>
+                <a href="anime-manga.html">anime-manga</a>
+                <a href="formulaireDeContact.php">contact</a>  
             </div>
         </nav>
     </header>

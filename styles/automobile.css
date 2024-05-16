@@ -55,13 +55,7 @@ body {
     margin: 0 10px;
 }
 
-.titre1 {
-    color: black;
-    font-size: 70px;
-    font-family: Edu NSW ACT  Fondation;
-    font-weight: 700;
-    text-transform: uppercase;
-}
+
 
 .titre {
     display: flex;
