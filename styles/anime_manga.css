@@ -1,59 +1,52 @@
 body {
     margin: 0;
     padding: 0;
-    background: darkgrey;
-    object-fit: cover;
+    background: rgb(158, 98, 98);
+    
 }
- 
+
+header { 
+  width: 100%;
+  background-color: #333;
+  color: white;
+  opacity: 0.90;
+}
+
 .navbar {
-    display: flex;
-    position: relative;
-    justify-content: center;
-    align-items: center;
-    background-image: url(../images/manga/image-banniere.jpg);
-    background-size: cover;
-    background-position: top; 
-    height: 400px;
-    object-fit: cover;
- }
- 
- .navbar-titre {
-     position: absolute;
-     color: yellow;
-     font-size: 140px;
-     font-family: Edu NSW ACT  Fondation;
-     font-weight: 700;
-     text-transform: uppercase;
-     margin: 0;
- }
- 
- .logo-1 {
-     position: absolute;
-     top: 10px;
-     left: 10px; 
-     height: 80px;
-     width: 80px;
-     object-fit: cover;
- }
- 
- .liste {
-     flex-grow: 1;
-     text-align: center;
-     display: flex;
-     justify-content: center;
-     align-self: flex-start;
- }
- 
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.liste {
+  flex-grow: 1;
+  text-align: center;
+}
+
 .liste a {
-     color: white;
-     text-align: center;
-     padding: 10px;
-     text-transform: uppercase;
-     font-family: "Noto Serif JP";
-     font-weight: 700;
-     font-size: 20px;
-     text-decoration: none;
-     margin: 0 10px;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  text-transform: uppercase;
+  font-family: "Noto Serif JP";
+  font-weight: 700;
+  font-size: 20px;
+  text-decoration: none;
+  margin: 0 10px;
+}
+
+.logo-1 {
+  height: 80px;
+  width: 80px;
+  margin: 5px;
+  object-fit: cover;
+}
+
+.banniere {
+  width: 100%;
+  object-fit: cover;
+  height: 500px;
+  margin: 0 auto;
 }
 
 h2 {
@@ -66,11 +59,7 @@ h2 {
     text-transform: uppercase;
 }
 
-img {
-  height: 450px;
-}
-
-.comics-section {
+.manga-section {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
@@ -80,7 +69,7 @@ img {
     scroll-margin-top: 100px;
 }
   
-.comics-container {
+.manga-container {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -88,17 +77,17 @@ img {
     row-gap: 40px;
 }
   
-  .comic {
+  .manga {
     background: #f1f1f1;
     cursor: pointer;
   }
   
-  .comic-img {
+  .manga-img {
     width: 300px;
     overflow: hidden;
   }
   
-  .comic-img img {
+  .manga-img img {
     transition: transform 0.1s;
   
     display: block;
@@ -107,15 +96,43 @@ img {
     object-fit: cover;
   }
   
-  .comic:hover .comic-img img {
+  .manga:hover .manga-img img {
     transform: scale(1.01);
   }
   
-  .comic-description {
+  .manga-description {
     padding: 10px;
     text-align: center;
   }
   
-  .comic-description h3 {
+  .manga-description h3 {
     margin: 0;
+    font-family: Cormorant Garamond;
+    font-weight: 700;
+    font-size: 20px;
+    text-transform: uppercase;
   }
+
+  footer {
+    width: 100%;
+    background-color: #333;
+    color: white;
+    font-size: 35px;
+    text-align: center;
+    padding: 15px 0;
+    bottom: 0;
+    opacity: 0.90;
+}
+
+.lien-reseaux {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    
+}
+
+.icon-atypique {
+    width: 60px;
+    height: 32px;
+    object-fit: cover;
+}
