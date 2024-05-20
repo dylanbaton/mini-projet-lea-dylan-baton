@@ -27,7 +27,7 @@ mysqli_close($connexion);
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500&family=Edu+NSW+ACT+Foundation:wght@700&family=Merriweather&family=Noto+Serif+JP:wght@700&display=swap" rel="stylesheet">
-    <title>Anime et Manga</title>
+    <title>Manga</title>
 </head>
 <body>
     <header>
@@ -44,7 +44,7 @@ mysqli_close($connexion);
     </header>
     <main>
         <img class="banniere" src="images/manga/image-banniere.jpg" alt="">
-        <div id="manga-section" class="manga-section">
+            <div id="manga-section" class="manga-section">
             <div class="container">
                 <h2>Mangas</h2>
                 <div class="manga-container">

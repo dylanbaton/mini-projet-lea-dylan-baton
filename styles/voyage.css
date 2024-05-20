@@ -1,44 +1,159 @@
 body {
+    /* Définit la police de caractères pour le corps du document */
+    font-family: Arial, sans-serif;
+    /* Centre horizontalement le contenu */
     margin: 0 auto;
+    /* Utilise Flexbox pour disposer les éléments en colonne */
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-position: center;
-    overflow: hidden;
+    /* Définit la hauteur à 100% de la hauteur de la fenêtre */
+    height: 100vh;
+    /* Couleur de fond blanc fumée */
+    background-color: whitesmoke;
 }
 
-header { 
+header {
+    /* Largeur 100% de l'écran */
     width: 100%;
+    /* Couleur de fond noir */
     background-color: #333;
+    /* Couleur du texte blanche */
     color: white;
+    /* Légèrement transparent */
     opacity: 0.90;
 }
 
 .navbar {
+    /* Utilise Flexbox pour disposer les éléments en ligne */
     display: flex;
+    /* Espace les éléments également */
     justify-content: space-between;
+    /* Centre verticalement les éléments */
     align-items: center;
 }
 
 .liste {
+    /* Permet à l'élément de prendre tout l'espace disponible */
     flex-grow: 1;
+    /* Centre le texte */
     text-align: center;
 }
 
 .liste a {
+    /* Couleur du texte blanche */
     color: white;
+    /* Centre le texte */
     text-align: center;
+    /* Espacement interne */
     padding: 10px;
+    /* Transforme le texte en majuscules */
     text-transform: uppercase;
+    /* Police de caractères spécifique */
     font-family: "Noto Serif JP";
+    /* Texte en gras */
     font-weight: 700;
+    /* Taille de la police */
     font-size: 20px;
+    /* Supprime la décoration du texte */
     text-decoration: none;
+    /* Marge latérale */
     margin: 0 10px;
 }
 
 .logo-1 {
+    /* Hauteur de l'image */
     height: 80px;
+    /* Largeur de l'image */
     width: 80px;
+    /* Marge autour de l'image */
     margin: 5px;
+}
+
+.carousel {
+    /* Positionnement relatif pour contenir les éléments enfants */
+    position: relative;
+    /* Largeur 100% de l'écran */
+    width: 100%;
+    /* Hauteur 100% de la fenêtre */
+    height: 100vh; /* Prend 100% de la hauteur de la fenêtre */
+    /* Masque tout débordement */
+    overflow: hidden;
+
+    margin: 0 auto;
+}
+
+.carousel-inner {
+    /* Utilise Flexbox pour disposer les éléments en ligne */
+    display: flex;
+    /* Hauteur 100% de l'élément parent */
+    height: 100%;
+    /* Transition pour le déplacement des éléments */
+    transition: transform 0.5s ease;
+}
+
+.carousel-item {
+    /* Largeur minimale 100% de l'écran */
+    min-width: 100%;
+    /* Hauteur 100% de l'écran */
+    height: 100%;
+    /* Inclut le padding et les bordures dans la largeur et la hauteur */
+    box-sizing: border-box;
+}
+
+.carousel-item img {
+    /* Largeur 100% de l'élément parent */
+    width: 100%;
+    /* Hauteur 50% de l'élément parent */
+    height: 50%;
+    /* Couvre l'élément en gardant le ratio de l'image */
+    object-fit: cover;
+}
+
+button {
+    /* Positionnement absolu pour les boutons */
+    position: absolute;
+    /* Positionnement à 25% du haut de l'élément parent */
+    top: 25%;
+    /* Centre verticalement le bouton */
+    transform: translateY(-50%);
+    /* Fond semi-transparent noir */
+    background-color: rgba(0, 0, 0, 0.5);
+    /* Supprime la bordure */
+    border: none;
+    /* Couleur du texte blanche */
+    color: white;
+    /* Espacement interne */
+    padding: 10px;
+    /* Curseur pointeur */
+    cursor: pointer;
+    /* Bords arrondis */
+    border-radius: 50%;
+}
+
+button.prev {
+    /* Positionne le bouton à gauche */
+    left: 10px;
+}
+
+button.next {
+    /* Positionne le bouton à droite */
+    right: 10px;
+}
+
+button:hover {
+    /* Change la couleur de fond au survol pour un effet visuel */
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+main {
+    display: flex;
+    margin: 0 auto;
+    object-fit: cover;
+}
+
+.image-voyage {
+    width: 500px;
+    height: 300px;
+    object-fit: cover;
 }

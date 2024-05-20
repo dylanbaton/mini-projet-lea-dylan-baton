@@ -18,6 +18,16 @@ header {
   align-items: center;
 }
 
+.navbar-titre {
+  position: absolute;
+  color: white;
+  font-size: 140px;
+  font-family: Edu NSW ACT  Fondation;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin: 0;
+}
+
 .liste {
   flex-grow: 1;
   text-align: center;
