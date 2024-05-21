@@ -1,7 +1,7 @@
 body {
     margin: 0;
     padding: 0;
-    background: rgb(158, 98, 98);
+    background: white;
     
 }
 
@@ -16,6 +16,7 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  background: linear-gradient(to right, black, red);
 }
 
 .navbar-titre {
@@ -90,6 +91,7 @@ h2 {
   .manga {
     background: #f1f1f1;
     cursor: pointer;
+    border: 5px solid yellow;
   }
   
   .manga-img {
@@ -113,6 +115,7 @@ h2 {
   .manga-description {
     padding: 10px;
     text-align: center;
+    background-color: black;
   }
   
   .manga-description h3 {
@@ -121,6 +124,7 @@ h2 {
     font-weight: 700;
     font-size: 20px;
     text-transform: uppercase;
+    color: #f1f1f1;
   }
 
   footer {
@@ -145,4 +149,8 @@ h2 {
     width: 60px;
     height: 32px;
     object-fit: cover;
+}
+
+.carrousel {
+  display: flex;
 }

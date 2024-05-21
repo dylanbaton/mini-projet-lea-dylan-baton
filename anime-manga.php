@@ -43,8 +43,17 @@ mysqli_close($connexion);
         </nav>
     </header>
     <main>
-        <img class="banniere" src="images/manga/image-banniere.jpg" alt="">
-            <div id="manga-section" class="manga-section">
+        
+        <div class="carrousel">
+            <button class="precedent">❮</button>
+            <div class="carrousel-interieur">
+                <div class="carrousel-image">
+                    <img src="images/manga/image-banniere-2.jpg" alt="">
+                </div>
+            </div>
+            <button class="suivant">❯</button>
+        </div>
+        <div id="manga-section" class="manga-section">
             <div class="container">
                 <h2>Mangas</h2>
                 <div class="manga-container">
@@ -64,6 +73,7 @@ mysqli_close($connexion);
                     ?>
                 </div>
         </div>
+        <script src="js/anime_manga.js"></script>
     </main>
     <footer>
         <small>Copyright © 2024. Baton Dylan. Tous droits réservés.</small>
