@@ -1,3 +1,7 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
 body {
    margin: 0;
    padding: 0;
@@ -83,11 +87,13 @@ h2 {
     text-transform: uppercase;
 }
 
-.section {
+.container {
     display: flex;
     padding-top: 50px;
+    max-width: 1400px;
+    margin: 0 auto;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: space-between;
     gap: 15px;
 } 
 
@@ -95,28 +101,30 @@ h2 {
     display: flex;
     height: 300px;
     border: 5px solid white;
-    max-width: 800px;
+    width: 49%;
     border-radius: 20px;
     overflow: hidden;
 }
 
-.paragraphe {
-    width: 30%;
-    font-size: 13px;
-    padding: 2px;
-    margin: 10px;
-    font-family: Merriweather;
-    font-weight: 400;
-    color: #F2D5DC;
-}
-
-.image {
-    width: 70%;
+.container-image {
+    width: 60%;
 }
 
 img {
     width: 100%;
     height: 100%;
+}
+
+.container-paragraphe {
+    display: flex;
+    align-items: center;
+    width: 40%;
+    font-size: 15px;
+    padding: 2px;
+    margin: 10px;
+    font-family: Merriweather;
+    font-weight: 400;
+    color: #F2D5DC;
 }
 
 .icon img {
@@ -146,14 +154,64 @@ footer {
     object-fit: cover;
 }
 
-@media (max-width: 2000px) {
+/* @media (max-width: 2000px) {
     .navbar-titre {
         font-size: 100px;
     }
 }
 
-@media (max-width: 1400px) {
+@media (max-width: 1700px) {
     .navbar-titre {
         font-size: 80px;
     }
+
+    .card {
+        max-width: 650px;
+    }
+
+    .container-image {
+        width: 50%;
+        object-fit: cover;    
+    }
+
+    .container-paragraphe {
+        font-size: 12px;
+        padding: 5px;
+        margin: 15px;
+        display: flex;
+        align-items: center;
+    }
+
 }
+
+@media (max-width: 1400px) {
+    .navbar-titre {
+        font-size: 60px;
+    }
+
+    .section {
+        display: flex;
+        flex-direction: row;
+        padding-top: 50px;
+        margin: 0 auto;
+    } 
+
+    .card {
+        display: flex;
+        flex-direction: column;
+        max-width: 40%;
+        height: 50%;
+    }
+
+    .container-image {
+        width: 100%;
+        height: 50%;
+        object-fit: cover;   
+    }
+}
+
+@media (max-width: 1200px) {
+    .navbar-titre {
+        font-size: 40px;
+    }
+} */
