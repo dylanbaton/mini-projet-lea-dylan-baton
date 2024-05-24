@@ -162,6 +162,7 @@ footer {
     
     .container-paragraphe {
         font-size: 13px;
+        color: black;
     }
 }
 
@@ -175,6 +176,7 @@ footer {
         flex-direction: column;
         width: 45%;
         height: 400px;
+        background-color: white;
     }
 
     .container-image {
@@ -190,6 +192,7 @@ footer {
         margin: 2px;
         padding: 0px 20px 0px 20px;
         text-align: center;
+        color: black;
     }
 
     
