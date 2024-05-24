@@ -30,18 +30,7 @@ body {
     margin: 0;
 }
 
-.logo-1 {
-    position: absolute;
-    top: 10px;
-    left: 10px; 
-    height: 80px;
-    width: 80px;
-    object-fit: cover;
-}
-
 .liste {
-    flex-grow: 1;
-    text-align: center;
     display: flex;
     justify-content: center;
     align-self: flex-start;
@@ -120,7 +109,7 @@ img {
     display: flex;
     align-items: center;
     width: 40%;
-    font-size: 15px;
+    font-size: 14px;
     padding: 2px;
     margin: 10px;
     font-family: Merriweather;
@@ -156,17 +145,26 @@ footer {
 }
 
 @media (max-width: 1330px) {
+    .liste a {
+        font-size: 15px;
+        padding: 5px; 
+     } 
+    
     .navbar-titre {
         font-size: 60px;
     }
     
     .container-paragraphe {
-        font-size: 13px;
         color: black;
     }
 }
 
 @media (max-width: 800px) {
+    .liste a {
+       font-size: 10px; 
+    }    
+        
+    
     .navbar-titre {
         font-size: 40px;
     }
@@ -185,7 +183,6 @@ footer {
 }
 
     .container-paragraphe {
-        font-size: 14px;
         width: 100%;
         height: 100%;
         object-fit: cover;
