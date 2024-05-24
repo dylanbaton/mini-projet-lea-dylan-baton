@@ -1,7 +1,7 @@
 body {
     margin: 0;
     padding: 0;
-    background: white;
+    background: linear-gradient(to right, white, darkred, white);
     
 }
 
@@ -16,7 +16,6 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background: linear-gradient(to right, black, red);
 }
 
 .navbar-titre {
@@ -101,7 +100,6 @@ h2 {
   
   .manga-img img {
     transition: transform 0.1s;
-  
     display: block;
     width: 100%;
     aspect-ratio: 280/415;

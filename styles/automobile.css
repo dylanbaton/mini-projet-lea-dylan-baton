@@ -1,3 +1,7 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
 body {
     margin: 0;
     padding: 0;
@@ -11,15 +15,15 @@ body {
     align-items: center;
     background-image: url(../images/navbar/image-navbar.jpg);
     background-size: cover;
-    background-position: center 650px; 
+    background-position: center; 
     height: 400px;
     object-fit: cover;
 }
 
 .navbar-titre {
     position: absolute;
-    color: red;
-    font-size: 140px;
+    color: black;
+    font-size: 100px;
     font-family: Edu NSW ACT  Fondation;
     font-weight: 700;
     text-transform: uppercase;
@@ -140,4 +144,19 @@ footer {
     width: 60px;
     height: 32px;
     object-fit: cover;
+}
+
+@media (max-width: 1330px) {
+    .navbar-titre {
+        font-size: 60px;
+    }
+}
+
+@media (max-width: 800px) {
+    .paragraphe {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        object-fit: cover;
+    }
 }

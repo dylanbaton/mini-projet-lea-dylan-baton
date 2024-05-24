@@ -44,7 +44,7 @@ mysqli_close($connexion);
     </header>
     <main>
         
-        <div class="carrousel">
+        <!-- <div class="carrousel">
             <button class="precedent">❮</button>
             <div class="carrousel-interieur">
                 <div class="carrousel-image">
@@ -52,7 +52,7 @@ mysqli_close($connexion);
                 </div>
             </div>
             <button class="suivant">❯</button>
-        </div>
+        </div> -->
         <div id="manga-section" class="manga-section">
             <div class="container">
                 <h2>Mangas</h2>
