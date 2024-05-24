@@ -101,6 +101,7 @@ h2 {
     display: flex;
     height: 300px;
     border: 5px solid white;
+    background-color: white;
     width: 49%;
     border-radius: 20px;
     overflow: hidden;
@@ -124,7 +125,7 @@ img {
     margin: 10px;
     font-family: Merriweather;
     font-weight: 400;
-    color: #F2D5DC;
+    color: black;
 }
 
 .icon img {
