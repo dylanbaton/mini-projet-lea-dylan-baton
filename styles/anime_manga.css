@@ -1,7 +1,11 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
 body {
     margin: 0;
     padding: 0;
-    background: linear-gradient(to right, white, darkred, white);
+    background: linear-gradient(to right, white, #F51A40, white);
     
 }
 
@@ -52,10 +56,11 @@ header {
   object-fit: cover;
 }
 
-.banniere {
-  width: 100%;
-  object-fit: cover;
-  height: 500px;
+.container {
+  margin: 0 auto;
+}
+
+main {
   margin: 0 auto;
 }
 
@@ -67,6 +72,8 @@ h2 {
     font-size: 50px;
     text-decoration: underline;
     text-transform: uppercase;
+    margin: 0 auto;
+    margin-bottom: 20px;
 }
 
 .manga-section {
@@ -149,6 +156,49 @@ h2 {
     object-fit: cover;
 }
 
-.carrousel {
+
+#slider {
+  position: relative;
+  width: 100%;
+  height: 750px;
+  margin: 0 auto;
   display: flex;
+  align-items: center;
+  object-fit: cover;
+}
+
+.image-slider {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+#precedent,
+#suivant {
+  cursor: pointer;
+  transition: opacity 0.3s ease;
+  opacity: 0.5;
+  position: absolute;
+  font-size: 50px;
+  font-weight: bold;
+  color: rgba(220, 220, 220, 0.8);
+  background-color: black;
+  color: yellow;
+  padding: 10px;
+  
+}
+
+#precedent {
+  left: 0;
+  border-radius: 0px 20px 20px 0px;
+}
+
+#suivant {
+  right: 0;
+  border-radius: 20px 0px 0px 20px;
+}
+
+#slider:hover #precedent,
+#slider:hover #suivant {
+  opacity: 1;
 }

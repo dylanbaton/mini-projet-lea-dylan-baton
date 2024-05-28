@@ -13,8 +13,6 @@ $sql = "SELECT * FROM manga";
 $resultat = mysqli_query($connexion, $sql);
 // Fermer la connexion
 mysqli_close($connexion);
-
-
 ?>
 
 
@@ -43,16 +41,11 @@ mysqli_close($connexion);
         </nav>
     </header>
     <main>
-        
-        <!-- <div class="carrousel">
-            <button class="precedent">❮</button>
-            <div class="carrousel-interieur">
-                <div class="carrousel-image">
-                    <img src="images/manga/image-banniere-2.jpg" alt="">
-                </div>
-            </div>
-            <button class="suivant">❯</button>
-        </div> -->
+    <div id="slider">
+        <img class="image-slider" src="images/manga/image-banniere.jpg" alt="Mont-fuji" id="slide">
+        <div id="precedent" onclick="ChangeSlide(-1)"><</div>
+        <div id="suivant" onclick="ChangeSlide(1)">></div>
+    </div>
         <div id="manga-section" class="manga-section">
             <div class="container">
                 <h2>Mangas</h2>
@@ -60,7 +53,7 @@ mysqli_close($connexion);
                     <?php
                        foreach ($resultat as $manga) {
                             echo '
-                            <div class="manga">
+                        <div class="manga">
                             <div class="manga-img">
                                 <img src="'. $manga['url'] .'" alt="">
                             </div>
