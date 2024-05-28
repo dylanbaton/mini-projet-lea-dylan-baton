@@ -5,7 +5,7 @@
 body {
    margin: 0;
    padding: 0;
-   background: darkred;  
+   background: #A64115;  
 }
 
 .navbar {
@@ -64,7 +64,7 @@ h2 {
     display: block;
     margin : auto;
     width: 240px;
-    background: linear-gradient(to right, black, darkblue);
+    background: linear-gradient(to right, #00345F, #FFCE55);
     border: 0.2px solid #8f8f9d;
     border-radius: 5px;
     padding: 3px;
@@ -147,7 +147,6 @@ footer {
 
 @media (max-width: 1330px) {
     .liste a {
-        font-size: 15px;
         padding: 5px; 
      } 
     
@@ -161,11 +160,6 @@ footer {
 }
 
 @media (max-width: 800px) {
-    .liste a {
-       font-size: 10px; 
-    }    
-        
-    
     .navbar-titre {
         font-size: 40px;
     }
@@ -192,10 +186,6 @@ footer {
         text-align: center;
         color: black;
     }
-
-    
-
-   
 }
 
 @media (max-width: 600px) {
