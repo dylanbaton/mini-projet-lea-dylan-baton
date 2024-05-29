@@ -88,11 +88,13 @@ main {
 }
 
 .formulaire label {
+    margin: 5px;
     margin-bottom: 5px;
 }
 
 .formulaire input,
 .formulaire textarea {
+    margin: 5px;
     margin-bottom: 15px;
     padding: 10px;
     border: 1px solid #ccc;
