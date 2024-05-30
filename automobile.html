@@ -28,51 +28,45 @@
         <section>
             <a class="titre"> liberty work </a>
             <a class="bouton-lien" href="https://libertywalk.co.jp/" target="_blank">en savoir plus sur liberty walk</a>
+            <p>
+                Lberty Walk est un préparateur devenu en seulement quelques mois, un incontournable aux États-Unis et au Japon dans la préparation des supercars.
+                Si ce nom n’est pas encore murmuré en Europe, il pourrait bien d’ici quelques temps s’imposer comme un des leaders mondiaux dans sa catégorie.
+                Le concept de Nakai-san, leader du groupe, est simple : prendre les modèles de supercars les plus en vogues du moment et leur faire peau neuve en leur greffant des kits carrosserie plus larges et en rabaissant la caisse, afin de lui donner un style plus agressif.
+                Il est bien connu que le pays du soleil levant est passé maitre dans les modifications des voitures à la « Fast and Furious ».
+                C’est surtout le fait que les marques qui y sont présentes offrent des modèles de voitures dont les moteurs, avec quelques préparations, abordent des puissances hors-normes.
+            </p>
             <div class="section">
+               
                 <article class="voiture">
-                    <div class="image">
-                        <img src="images/liberty-work/ferrari/image-liberty-ferrari.jpg" alt="ferrari" id="slide">
-                    </div>
-                    <div class="paragraphe">
-                        <p>
-                            Superstar des années 1980, la Ferrari F40 est un modèle d'exception, et sa production en quantité limitée la rend encore plus culte.
-                            De ce fait, toute modification sur le modèle, même si elle ne concerne que la peinture sur la carrosserie, peut être vue comme une hérésie par les fans du Cheval cabré.
-                            Pourtant, cela n'a pas empêché Liberty Walk, préparateur japonais, de s'occuper de la F40 et d'afficher fièrement le résultat au salon de Tokyo.   
-                        </p>
+                    <h2 class="titre">ferrari</h2>
+                    <div id="slider">
+                        <img class="image-slider" src="images/liberty-work/ferrari/lb-ferrari-1.jpg" alt="" id="slide">
+                        <div id="precedent" onclick="ChangeSlide(-1)"><</div>
+                        <div id="suivant" onclick="ChangeSlide(1)">></div>
                     </div>
                 </article>
-
-                <article class="voiture voiture-1">
-                    <div class="image">
-                        <img src="images/liberty-work/image-liberty-nissan.jpg" alt="">
-                    </div>
-                    <div class="paragraphe">
-                        <p>
-                            Ce R34 est un parfait exemple d’ajout de juste ce qu’il faut de folie tout en restant fidèle au design original, et à nos yeux, il a l’air incroyable.
-                            Les ailes avant et arrière ont été élargies et arborent désormais un look agressif et carré qui ne fait que compléter le design déjà majoritairement carré de la R34 GT-R.  
-                        </p>
+                
+                <article class="voiture">
+                    <h2 class="titre">lamborghini</h2>
+                    <div id="slider">
+                        <img class="image-slider" src="images/liberty-work/lamborghini/lb-lamborghini-1.jpg" alt="" id="slide2">
+                        <div id="precedent" onclick="ChangeSlide2(-1)"><</div>
+                        <div id="suivant" onclick="ChangeSlide2(1)">></div>
                     </div>
                 </article>
-
+                
                 <article class="voiture">
-                    <div class="image">
-                        <img src="images/liberty-work/image-liberty-lamborghini.jpg" alt="">
-                    </div>
-                    <div class="paragraphe">
-                        <p>
-                             Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet velit eaque obcaecati minus voluptatem consequatur! Dolorem fuga esse nobis velit, neque distinctio quae totam unde saepe ipsum magnam perferendis molestiae.
-                        </p>  
+                    <h2 class="titre">nissan</h2>
+                    <div id="slider">
+                        <img class="image-slider" src="images/liberty-work/nissan/lb-nissan.jpg" alt="Mont-fuji" id="slide2">
+                        <div id="precedent" onclick="ChangeSlide2(-1)"><</div>
+                        <div id="suivant" onclick="ChangeSlide2(1)">></div>
                     </div>
                 </article>
 
                 <article class="voiture voiture-1">
                     <div class="video">
                         <iframe width="550" height="350" src="https://www.youtube.com/embed/Xaa1jb5uvEg" title="【LIBERTY WAIK TOKYO HARAJUKU OPEN】TOKYO CUSTOM LB-F40&amp;FD3S  Promotion Video" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-                    </div>
-                    <div class="paragraphe">
-                        <p>
-                           Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita quia maxime officia nam, ullam reprehenderit laudantium vitae delectus eos excepturi modi sed aliquam! Eos voluptatibus animi aut consectetur explicabo beatae.  
-                        </p>  
                     </div>
                 </article>
             </div>
@@ -181,7 +175,6 @@
                 </article>
             </div>
         </section>
-        <script src="automobile.js"></script>
     </main>
 
     <footer>
@@ -200,5 +193,7 @@
             <img class="icon icon-atypique" src="icons/formulaire/icon-atypique.jpg" alt=""></a>
         </div>
     </footer>
+    <script src="js/automobile.js"></script>
+    <script src="js/lamborghini.js"></script>
 </body>
 </html>
