@@ -8,5 +8,5 @@ function ChangeSlide2(sens) {
         numero2 = slide2.length - 1;
     if (numero2 > slide2.length - 1)
         numero2 = 0;
-    document.getElementById("slide2").src = "images/liberty-work/lamborghini/" + slide2[numero];
+    document.getElementById("slide2").src = "images/liberty-work/lamborghini/" + slide2[numero2];
 }
