@@ -32,7 +32,7 @@ mysqli_close($connexion);
         <nav class="navbar">
             <img class="logo-1" src="icons/manga/icon-naruto.jpg" alt="logo-japon">
             <div class="liste">
-                <a href="index.html">le japon</a>
+                <a href="index.html">accueil</a>
                 <a href="automobile.html">le monde automobile</a>
                 <a href="anime-manga.php">anime-manga</a>
                 <a href="voyage.html">voyage</a>

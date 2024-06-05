@@ -1,159 +1,206 @@
-body {
-    /* Définit la police de caractères pour le corps du document */
-    font-family: Arial, sans-serif;
-    /* Centre horizontalement le contenu */
-    margin: 0 auto;
-    /* Utilise Flexbox pour disposer les éléments en colonne */
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    /* Définit la hauteur à 100% de la hauteur de la fenêtre */
-    height: 100vh;
-    /* Couleur de fond blanc fumée */
-    background-color: whitesmoke;
-}
-
-header {
-    /* Largeur 100% de l'écran */
-    width: 100%;
-    /* Couleur de fond noir */
-    background-color: #333;
-    /* Couleur du texte blanche */
-    color: white;
-    /* Légèrement transparent */
-    opacity: 0.90;
-}
-
-.navbar {
-    /* Utilise Flexbox pour disposer les éléments en ligne */
-    display: flex;
-    /* Espace les éléments également */
-    justify-content: space-between;
-    /* Centre verticalement les éléments */
-    align-items: center;
-}
-
-.liste {
-    /* Permet à l'élément de prendre tout l'espace disponible */
-    flex-grow: 1;
-    /* Centre le texte */
-    text-align: center;
-}
-
-.liste a {
-    /* Couleur du texte blanche */
-    color: white;
-    /* Centre le texte */
-    text-align: center;
-    /* Espacement interne */
-    padding: 10px;
-    /* Transforme le texte en majuscules */
-    text-transform: uppercase;
-    /* Police de caractères spécifique */
-    font-family: "Noto Serif JP";
-    /* Texte en gras */
-    font-weight: 700;
-    /* Taille de la police */
-    font-size: 20px;
-    /* Supprime la décoration du texte */
-    text-decoration: none;
-    /* Marge latérale */
-    margin: 0 10px;
-}
-
-.logo-1 {
-    /* Hauteur de l'image */
-    height: 80px;
-    /* Largeur de l'image */
-    width: 80px;
-    /* Marge autour de l'image */
-    margin: 5px;
-}
-
-.carousel {
-    /* Positionnement relatif pour contenir les éléments enfants */
-    position: relative;
-    /* Largeur 100% de l'écran */
-    width: 100%;
-    /* Hauteur 100% de la fenêtre */
-    height: 100vh; /* Prend 100% de la hauteur de la fenêtre */
-    /* Masque tout débordement */
-    overflow: hidden;
-
-    margin: 0 auto;
-}
-
-.carousel-inner {
-    /* Utilise Flexbox pour disposer les éléments en ligne */
-    display: flex;
-    /* Hauteur 100% de l'élément parent */
-    height: 100%;
-    /* Transition pour le déplacement des éléments */
-    transition: transform 0.5s ease;
-}
-
-.carousel-item {
-    /* Largeur minimale 100% de l'écran */
-    min-width: 100%;
-    /* Hauteur 100% de l'écran */
-    height: 100%;
-    /* Inclut le padding et les bordures dans la largeur et la hauteur */
+*, *::before, *::after {
     box-sizing: border-box;
 }
 
-.carousel-item img {
-    /* Largeur 100% de l'élément parent */
-    width: 100%;
-    /* Hauteur 50% de l'élément parent */
-    height: 50%;
-    /* Couvre l'élément en gardant le ratio de l'image */
-    object-fit: cover;
+body {
+   margin: 0;
+   padding: 0;
+   background: #A64115;  
 }
 
-button {
-    /* Positionnement absolu pour les boutons */
-    position: absolute;
-    /* Positionnement à 25% du haut de l'élément parent */
-    top: 25%;
-    /* Centre verticalement le bouton */
-    transform: translateY(-50%);
-    /* Fond semi-transparent noir */
-    background-color: rgba(0, 0, 0, 0.5);
-    /* Supprime la bordure */
-    border: none;
-    /* Couleur du texte blanche */
-    color: white;
-    /* Espacement interne */
-    padding: 10px;
-    /* Curseur pointeur */
-    cursor: pointer;
-    /* Bords arrondis */
-    border-radius: 50%;
-}
-
-button.prev {
-    /* Positionne le bouton à gauche */
-    left: 10px;
-}
-
-button.next {
-    /* Positionne le bouton à droite */
-    right: 10px;
-}
-
-button:hover {
-    /* Change la couleur de fond au survol pour un effet visuel */
-    background-color: rgba(0, 0, 0, 0.7);
-}
-
-main {
+.navbar {
     display: flex;
-    margin: 0 auto;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    background-image: url(../images/navbar/navbar-japon.jpg);
+    background-size: cover;
+    background-position: bottom; 
+    height: 400px;
     object-fit: cover;
 }
 
-.image-voyage {
-    width: 500px;
+.navbar-titre {
+    position: absolute;
+    color: white;
+    font-size: 100px;
+    font-family: MedievalSharp;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin: 0;
+}
+
+.liste {
+    display: flex;
+    justify-content: center;
+    align-self: flex-start;
+}
+
+.liste a {
+    color: white;
+    text-align: center;
+    padding: 10px;
+    text-transform: uppercase;
+    font-family: MedievalSharp;
+    font-weight: 700;
+    font-size: 20px;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+h2 {
+    text-align: center;
+    font-family: MedievalSharp;
+    font-weight: 700;
+    font-size: 50px;
+    text-decoration: underline;
+    text-transform: uppercase;
+    margin: 5px;
+    padding-top: 50px;
+    color: #F2D5DC;
+}
+
+.bouton-lien {
+    display: block;
+    margin : auto;
+    width: 240px;
+    background: linear-gradient(to right, #00345F, #FFCE55);
+    border: 0.2px solid #8f8f9d;
+    border-radius: 5px;
+    padding: 3px;
+    color: white;
+    font-family: Merriweather;
+    font-weight: 700;
+    font-size: 14px;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.container {
+    display: flex;
+    padding-top: 50px;
+    max-width: 1400px;
+    margin: 0 auto;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 15px;
+} 
+
+.card {
+    display: flex;
     height: 300px;
+    border: 5px solid white;
+    background-color: white;
+    width: 49%;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.container-image {
+    width: 60%;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+}
+
+.container-paragraphe {
+    display: flex;
+    align-items: center;
+    width: 40%;
+    font-size: 14px;
+    padding: 2px;
+    margin: 10px;
+    font-family: Merriweather;
+    font-weight: 400;
+    color: black;
+}
+
+.icon img {
+    width: auto;
+    height: auto;
+}
+
+footer {
+    width: 100%;
+    background-color: black;
+    color: white;
+    font-size: 35px;
+    text-align: center;
+    padding: 15px 0;
+    margin-top: 20px; 
+}
+
+.lien-reseaux {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.icon-atypique {
+    width: 60px;
+    height: 32px;
     object-fit: cover;
+}
+
+@media (max-width: 1330px) {
+    .liste a {
+        padding: 5px; 
+     } 
+    
+    .navbar-titre {
+        font-size: 60px;
+    }
+    
+    .container-paragraphe {
+        color: black;
+    }
+}
+
+@media (max-width: 800px) {
+    .navbar-titre {
+        font-size: 40px;
+    }
+    
+    .card {
+        display: flex;
+        flex-direction: column;
+        width: 45%;
+        height: 400px;
+        background-color: white;
+    }
+
+    .container-image {
+        width: 100%;
+        height: 50%;
+}
+
+    .container-paragraphe {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        margin: 2px;
+        padding: 0px 20px 0px 20px;
+        text-align: center;
+        color: black;
+    }
+}
+
+@media (max-width: 600px) {
+    .navbar-titre {
+        font-size: 25px;
+    }
+
+    .card {
+        width: 100%;
+        object-fit: cover;
+        height: 50%;
+    }
+
+    .liste a {
+        font-size: 15px;
+        margin: 5px;
+    }
 }
